@@ -6,7 +6,7 @@ require("./reset/phpmailer/vendor/autoload.php");
 use Dompdf\Dompdf;
 use PHPMailer\PHPMailer\PHPMailer;
 
-$dompdf = new Dompdf();
+$dompdf = new Dompdf;
 $options = $dompdf->getOptions();
 $options->setIsPhpEnabled(true);
 $options->setIsRemoteEnabled(true);
